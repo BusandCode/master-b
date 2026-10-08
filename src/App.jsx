@@ -1,0 +1,27 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import MeetTutor from "./components/MeetTutor";
+import WhyDifferent from "./components/WhyDifferent";
+import HowItWorks from "./components/HowItWorks";
+import Testimonials from "./components/Testimonials";
+import BookDemo from "./components/BookDemo";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
+
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <MeetTutor />
+        <WhyDifferent />
+        <HowItWorks />
+        <Testimonials />
+        <BookDemo />
+        <FAQ />
+      </main>
+      <Footer />
+    </>
+  );
+}
