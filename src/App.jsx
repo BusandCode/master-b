@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import WhyDifferent from "./components/Why";
 import MeetTutor from "./components/MeetTutor";
-import WhyDifferent from "./components/WhyDifferent";
+// import WhyDifferent from "./components/WhyDifferent";
 import HowItWorks from "./components/HowItWorks";
 import Testimonials from "./components/Testimonials";
 import BookDemo from "./components/BookDemo";

@@ -2,15 +2,15 @@ import { differentiators } from "../data/content";
 
 export default function WhyDifferent() {
   return (
-    <section className="px-3 md:px-4">
-      <div className="relative mx-auto flex w-full max-w-[1409px] flex-col gap-10 overflow-hidden rounded-[20px] px-5 py-14 text-white md:px-[60px] md:py-20 xl:min-h-[711px]">
+    <section className="px-3 md:px-4 max-w-[1400px] mx-auto">
+      <div className="relative mx-auto flex w-full max-w-[1200px] flex-col gap-10 overflow-hidden rounded-[20px] px-5 py-14 text-white md:px-[60px] md:py-20 xl:min-h-[711px]">
         <img
           src="/whydifferentimage.png"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div aria-hidden="true" className="absolute inset-0 bg-[#003FA7] opacity-90" />
+        <div aria-hidden="true" className="absolute inset-0 bg-brand opacity-90" />
 
         <div className="relative grid items-start gap-6 md:grid-cols-2">
           <h2 className="text-3xl font-semibold md:text-4xl">What Makes Me Different</h2>
