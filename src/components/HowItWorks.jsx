@@ -31,7 +31,9 @@ export default function HowItWorks() {
                   onClick={() => setActive(i)}
                   aria-current={isActive ? "step" : undefined}
                   className={`flex-1 rounded-lg border p-5 text-left transition ${
-                    isActive ? "border-brand bg-mist" : "border-gray-100 bg-mist/60 hover:border-gray-200"
+                    isActive
+                      ? "border-brand bg-mist"
+                      : "border-gray-200 bg-white hover:border-gray-300"
                   }`}
                 >
                   <span className="inline-block rounded-full bg-brand-soft px-2.5 py-0.5 text-[10px] font-medium text-brand">

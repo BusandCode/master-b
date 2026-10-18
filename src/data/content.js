@@ -9,34 +9,36 @@ export const navLinks = [
 export const heroChips = ["Proven Results", "Global Standards", "Personalized Learning"];
 
 export const stats = [
-  { label: "Professional experience", value: "6+ years" },
-  { label: "Satisfied clients", value: "400+" },
+  { label: "Qualification", value: "M.Sc (Mathematics)" },
+  { label: "Satisfied clients", value: "300+" },
   { label: "Certification", value: "IGCSE" },
-  { label: "Sessions Taught", value: "7000+" },
-  { label: "Countries reached", value: "15+" },
+  { label: "Sessions Taught", value: "2000+" },
+  { label: "Countries reached", value: "10+" },
+  { label: "Professional experience", value: "8+ years" },
 ];
 
 export const aboutParagraphs = [
-  "I am a First Class Mathematics Graduate and IGCSE Certified Tutor, specialising in Mathematics education for students across different levels. With over six years of teaching experience, I have developed a structured and personalised approach that makes Mathematics easier to understand. Through teaching students on various online platforms, I have worked with learners of different ages and abilities, helping them strengthen their mathematical foundations, overcome challenging concepts and build confidence.",
-  "My lessons combine clear explanations, guided practice, digital whiteboards and interactive tools to create an effective learning experience. I focus on developing genuine problem-solving skills and helping every student achieve their full potential.",
+  "My name is Blessing Adetokunbo, popularly known as Master B. by my students. I am a First Class graduate of Mathematics and an IGCSE Certified Mathematics Tutor with over six years of experience teaching Mathematics at both Junior and Senior Secondary levels. My teaching journey spans both physical classrooms and leading online platforms, where I have helped numerous students overcome their fear of Mathematics and excel in their examinations.",
+  "I believe every student can be excellent at Mathematics when taught the right way. That is why I use digital whiteboards and interactive teaching tools to deliver clear, engaging, and step-by-step lessons tailored to each student's unique learning needs.",
+  "For me, it's beyond solving equations - it's about building strong mathematical understanding, boosting confidence, and helping each student achieve their full potential.",
 ];
 
 export const differentiators = [
   {
     title: "Personalised Learning",
-    text: "Lessons are tailored to each student's level, learning style, goals, and areas that need improvement.",
+    text: "No one-size-fits-all teaching. Every lesson is tailored to your learning style, pace, and academic goals - so you learn faster and understand deeper.",
   },
   {
     title: "Global Standards",
-    text: "Teaching aligned with international curricula and examination standards, including IGCSE Mathematics.",
+    text: "I teach Mathematics to international standards, covering curricula such as IGCSE, GCSE, KS1-KS3, SAT, etc. Thus equipping students to excel anywhere in the world.",
   },
   {
     title: "Interactive Learning",
-    text: "Uses digital whiteboards, guided practice, and interactive tools to make lessons clear, engaging, and effective.",
+    text: "Forget boring lectures. My classes are live, engaging, and hands-on with digital whiteboards and real-time problem-solving - you learn by doing.",
   },
   {
     title: "Progress Tracking",
-    text: "Regularly monitors each student's progress to identify improvements, address gaps, and keep learning on track.",
+    text: "You will see your growth. I provide regular assessments, feedback, and progress reports to keep you motivated and on track for success.",
   },
 ];
 
@@ -61,19 +63,19 @@ export const steps = [
 
 export const testimonials = [
   {
-    name: "Client, PB",
-    role: "Qualified Manager",
-    text: "All the carers are good with no complaints. Commit2Care have been able to meet Pamela Bevan needs",
+    name: "Mrs. Badewa",
+    role: "Parent, UAE",
+    text: "Fantastic tutor! Master B made Maths enjoyable for my kids and their school reports have been excellent since. His online classes are very engaging.",
   },
   {
-    name: "Client, TV",
-    role: "Qualified Manager",
-    text: "All your carers have been very good and professional to my dad and my mom as well. They always pay attention to details and my family always look forward to seeing them.",
+    name: "Mr. Afolayan",
+    role: "Parent, UK",
+    text: "Master B delivered real results. My son went from struggling with calculations to solving GCSE past questions confidently. Very professional and reliable.",
   },
   {
-    name: "Client, MD",
-    role: "Qualified Manager",
-    text: "Your company is a great company with amazing carers.",
+    name: "Mrs. Bamigboye",
+    role: "Parent, Canada",
+    text: "I am so impressed with Master B. My daughter used to fear Maths, but now she looks forward to her lessons. Her teacher in school even noticed the improvement. God bless you sir",
   },
 ];
 
@@ -89,31 +91,31 @@ export const gradeOptions = [
 export const faqs = [
   {
     q: "How do your online lessons work?",
-    a: "Lessons run live, one-on-one, on a digital whiteboard. You join through a link, work through problems together, and receive notes after each session.",
+    a: "Lessons are live and one-to-one over [Zoom / Google Meet]. I use an interactive digital whiteboard, so the student writes, solves, and asks questions in real time. All you need is a laptop or tablet, a stable internet connection, and a quiet space.",
   },
   {
     q: "Which levels and curricula do you teach?",
-    a: "Primary through university-level Mathematics, with a strong focus on IGCSE and other international curricula.",
+    a: "I teach Mathematics to students across different ages and ability levels, from foundational Mathematics to more advanced topics. I also support students following international curricula, including IGCSE, GCSE, KS1 - KS3, etc with lessons tailored to their specific syllabus, learning goals, and academic level.",
   },
   {
     q: "How long is a session, and how often should my child have lessons?",
-    a: "Sessions typically last 60 minutes. Most students do best with two lessons a week, adjusted to their goals and exam dates.",
+    a: "Session length and frequency depend on the student’s age, level, goals, and current understanding. Some students may benefit from one or two focused sessions each week, while students preparing for an exam may need more frequent lessons. We can determine the most suitable schedule based on your child’s needs.",
   },
   {
     q: "Can you help with exam preparation?",
-    a: "Yes. Lessons cover past papers, timed practice, and exam technique so students go in prepared and confident.",
+    a: "Yes. I prepare students for examination. Preparation covers topic revision, timed practice questions, past papers, and exam technique, so students know how to show their working, spot common traps, and manage their time.",
   },
   {
     q: "What if my child is very behind or anxious about Maths?",
-    a: "We start from where they are, rebuild foundations at a comfortable pace, and celebrate small wins until confidence returns.",
+    a: "That's very common. I start by finding exactly where understanding broke down, then rebuild from that point at a pace the student is comfortable with. Confidence usually returns once things begin to make sense.",
   },
   {
     q: "How much does tutoring cost?",
-    a: "Pricing depends on level and lesson frequency. Book a free demo and I will share a clear quote with no commitment.",
+    a: "Rates depend on the level and how often lessons take place.",
   },
   {
     q: "How do you track my child's progress?",
-    a: "Progress is reviewed regularly through practice results and short check-ins, and shared with parents so gaps are addressed early.",
+    a: "I regularly assess understanding throughout lessons and pay attention to areas of improvement and topics that may need more attention. This helps me adjust the lessons as the student progresses and ensures we continue focusing on the areas that will have the greatest impact on their learning.",
   },
 ];
 

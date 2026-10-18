@@ -38,7 +38,12 @@ export default function FAQ() {
                   className="flex w-full items-center justify-between gap-4 px-4 py-4 text-left text-sm font-medium"
                 >
                   <span>{i + 1}. {item.q}</span>
-                  {isOpen ? <Minus size={18} className="shrink-0 text-gray-500" /> : <Plus size={18} className="shrink-0 text-gray-500" />}
+                  <span
+                    aria-hidden="true"
+                    className="flex h-7 w-7 shrink-0 items-center justify-center gap-2.5 rounded-[100px] border border-[#003FA7] bg-[#EBEADC] p-1 text-[#003FA7]"
+                  >
+                    {isOpen ? <Minus size={16} /> : <Plus size={16} />}
+                  </span>
                 </button>
                 <div
                   id={`faq-${i}`}
