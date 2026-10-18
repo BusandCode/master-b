@@ -77,6 +77,16 @@ export const testimonials = [
     role: "Parent, Canada",
     text: "I am so impressed with Master B. My daughter used to fear Maths, but now she looks forward to her lessons. Her teacher in school even noticed the improvement. God bless you sir",
   },
+  {
+    name: "Mr. Williams",
+    role: "Parent, USA",
+    text: "My son used to depend on me for help with his Maths homework, and honestly, I couldn’t always help. Since he started with Master B, he handles his assignments better and even explains his solutions to me.",
+  },
+  {
+    name: "Mr. Collins",
+    role: "Parent, UK",
+    text: "My daughter got one of her best Maths test scores this term, and she was so proud of herself. Thank you, Master B, for helping her believe in what she can do.",
+  },
 ];
 
 export const gradeOptions = [
